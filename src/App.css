@@ -1,0 +1,30 @@
+* {
+  cursor: none;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: purple;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.title {
+  font-size: 10rem;
+}
+
+.cursor {
+  background-color: #111;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
